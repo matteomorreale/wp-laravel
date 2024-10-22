@@ -1,0 +1,34 @@
+/* Dashboard */
+
+/* GENERAL STYLE */
+.btn {
+    min-width: 200px;
+}
+ul#userDropdown {
+    top: 4em !important;
+}
+/* HEADER */
+nav .nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav .brand-logo {
+    position: relative;
+}
+
+/* CONTENT */
+.app-blade_home-blade__card-container{
+    margin-top: 2em;
+}
+.card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+section.app-blade_home-blade__section-functionalities-container {
+    padding-top: 2em;
+}
+.app-blade_home-blade__section-functionalities-container .container {
+    width: 100%!important;
+}
