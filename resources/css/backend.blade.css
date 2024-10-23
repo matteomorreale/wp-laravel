@@ -32,3 +32,8 @@ section.app-blade_home-blade__section-functionalities-container {
 .app-blade_home-blade__section-functionalities-container .container {
     width: 100%!important;
 }
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: inherit;
+    opacity: 1;
+    pointer-events: all;
+}

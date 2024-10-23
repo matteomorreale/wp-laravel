@@ -51,14 +51,6 @@
         </nav>
         <main class="app-blade py-4">
             <div class="app-blade row">
-                <!-- Contenuto sidebar -->
-                <div class="col s12 m4 l3">
-                    <div class="card-panel">
-                        <h5>Sidebar</h5>
-                        @include('partials.sidebar') <!-- Richiamo alla sidebar -->
-                    </div>
-                </div>
-
                 <!-- Contenuto principale -->
                 <div class="col s12 m8 l9">
                     @yield('content')
